@@ -7,3 +7,4 @@ variable "vpc_name" {}
 variable "public_subnet_cidrs" {}
 variable "azs" {}
 variable "Public_Routing_Table" {}
+variable "peer_owner_id" {}

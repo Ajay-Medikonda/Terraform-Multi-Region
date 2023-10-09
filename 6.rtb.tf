@@ -11,7 +11,7 @@ resource "aws_route_table" "terraform-public1" {
 }
 
 resource "aws_route_table_association" "terraform-public1" {
-  provider = aws.east-1
+  provider       = aws.east-1
   subnet_id      = aws_subnet.public-subnets1.id
   route_table_id = aws_route_table.terraform-public1.id
 }
@@ -29,7 +29,7 @@ resource "aws_route_table" "terraform-public2" {
 }
 
 resource "aws_route_table_association" "terraform-public2" {
-  provider = aws.east-1
+  provider       = aws.east-1
   subnet_id      = aws_subnet.public-subnets2.id
   route_table_id = aws_route_table.terraform-public2.id
 }
@@ -47,7 +47,7 @@ resource "aws_route_table" "terraform-public3" {
 }
 
 resource "aws_route_table_association" "terraform-public3" {
-  provider = aws.east-2
+  provider       = aws.east-2
   subnet_id      = aws_subnet.public-subnets3.id
   route_table_id = aws_route_table.terraform-public3.id
 }
