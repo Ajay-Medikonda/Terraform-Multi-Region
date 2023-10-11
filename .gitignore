@@ -1,6 +1,6 @@
 .terraform.lock.hcl
 .terraform/*
-KP-east-1.pem
-KP-east-2.pem
-KP-east-1
-KP-east-2
+.KP-east-1.pem
+.KP-east-2.pem
+.KP-east-1
+.KP-east-2
